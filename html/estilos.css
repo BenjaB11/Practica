@@ -1,0 +1,32 @@
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    border: solid white;
+
+}
+.first-day{
+    grid-column-start: 5;
+}
+.day-name{
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 300px;
+    color:black;
+}
+div{
+    background: burlywood;
+}
+.Titulo{
+    color: black;
+    background-color:white;
+
+}
+.Titulo:hover{
+    color:bisque;
+}
+ol:hover{
+    border-color: blueviolet;
+}
+
